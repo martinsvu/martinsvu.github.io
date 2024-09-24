@@ -1,7 +1,7 @@
 body {
-	background-color: #CCCCC;
+	background-color: #CCCCCC;
 }
-p {
+.title {
 	vertical-align: middle;
 	text-align: center;
 }

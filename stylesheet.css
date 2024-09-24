@@ -1,7 +1,8 @@
 body {
-	background-color: #CCCCCC;
+	background: rgb(73, 124, 131);
+	
 }
 .title {
-	vertical-align: middle;
 	text-align: center;
+	color: white;
 }

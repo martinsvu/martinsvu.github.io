@@ -5,13 +5,5 @@ body {
 .title {
 	text-align: center;
 	color: white;
+	font-family: monospace;
 }
-
-.blink {
-    background-color: white;
-	width: 3px;
-    -webkit-animation: blink 800ms step-end infinite;
-            animation: blink 800ms step-end infinite;
-}
-@-webkit-keyframes blink { 50% { background-color: transparent; }}
-        @keyframes blink { 50% { background-color: transparent; }}

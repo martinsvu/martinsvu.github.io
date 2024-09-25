@@ -18,10 +18,6 @@ mark {
 	font-size: 24px;
 	font-family: Lucida Console;
 	font-variant: small-caps;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 @keyframes blink {
 	0% {opacity: 0;}

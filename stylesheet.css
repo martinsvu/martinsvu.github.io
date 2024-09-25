@@ -18,6 +18,7 @@ mark {
 	font-size: 24px;
 	font-family: Lucida Console;
 	font-variant: small-caps;
+	position: absolute;
 }
 @keyframes blink {
 	0% {opacity: 0;}

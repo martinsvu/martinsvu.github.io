@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TravelHub - See the world</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <img src="./logo.png">
+            <a class="active" href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contacts.html">Contact</a>
+            <div class="search-container">
+                <input type="text" placeholder="Search.." id="search_input">
+                <button type="reset" id="clear" onclick="clearSearch()">Clear</button>
+                <button type="submit" id="search" onclick="search()">Search</button>
+            </div>
+          </div>
+        <div class="main">
+            <h2>Welcome to TravelHub, your ultimate destination for exploring the world!</h2>
+            <p style="text-indent: 1cm;">Whether you're an adventurous globetrotter or planning your first getaway, we provide inspiration, tips, and insights to make
+                 your travels unforgettable. 
+                 From hidden gems to must-see landmarks, discover a wide range of destinations, travel guides, and expert advice tailored just for you.</br>
+                 Start your journey here, and let the world be your next adventure!</p>
+            <div class="btn">
+                <button id="booknow">Book Now</button>
+            </div>
+        </div>
+        <div class="search-result" id="searchdiv"></div>
+        <div class="socials">
+            <hr>
+            <a href="#"><img src="./twitter.png" height="40" width="40"></a>
+            <a href="#"><img src="./fb.png" height="40" width="40"></a>
+            <a href="#"><img src="./insta.png" height="40" width="40"></a>
+            <a href="#"><img src="./yt.png" height="40" width="40"></a>
+            <hr>
+        </div>
+        <script src="./travel_recommendation.js"></script>
+    </body>
+</html>

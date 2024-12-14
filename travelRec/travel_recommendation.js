@@ -38,7 +38,7 @@ function search(){
     .then(response => response.json())
         .then(data => {
             data.countries.forEach(country => {
-                if (country.name.toLowerCase().includes(keyword)) {
+                if (country.name.toLowerCase().includes(keyword) || keyword.includes("count")) {
                   results.push(...country.cities);
                 }else{
                 country.cities.forEach(city => {
